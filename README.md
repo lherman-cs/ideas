@@ -18,6 +18,12 @@ More details can be found [here](https://github.com/lherman-cs/network-booster)
 
 Read telemetry from OBD reader, useful for diagnosis. Since OBD port exposes diagnosis CAN network, it allows some level of access to the car, e.g. windows, car's locks, lights, etc.
 
+Features:
+* Dashboard where car has gone in a google maps
+* Find car with a compass on android 
+* Control car with android
+* Debug issues within the car
+
 ## Detect intruder from your driveway
 
 Using Wifi sensing to achieve hidden solar-powered sensors with no blindspot. The sensors' outputs can then be aggregated to form a precise location of the intruder. With this precise location, you can deploy a couple of drones to monitor its movement.
