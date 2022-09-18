@@ -13,6 +13,10 @@ Increase network download/upload speed (download higher priority) in a rural are
 
 More details can be found [here](https://github.com/lherman-cs/network-booster)
 
+Ideally, the whole router stack should be replaced with new Rust implementation instead of relying on dnsmasq, dhcpd, hostapd, and wpa_supplicant.
+
+See more details here, https://github.com/not-yet-awesome-rust/not-yet-awesome-rust/issues/95.
+
 
 ## Car's controller
 
