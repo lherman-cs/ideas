@@ -32,3 +32,5 @@ Features:
 
 Using Wifi sensing to achieve hidden solar-powered sensors with no blindspot. The sensors' outputs can then be aggregated to form a precise location of the intruder. With this precise location, you can deploy a couple of drones to monitor its movement.
 
+Alternatively, we can equip each wifi sensors with a more powerful board that has a hardware accelerated video encoder that's only awaken whenever the Wifi sensing detects something.
+
