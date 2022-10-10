@@ -43,3 +43,5 @@ Assuming intruder detection is triggered 10 times a day and active only for 5 mi
 2. Video Acquisition: 5 minutes * 10 * 2.9w / 60 minutes/hour = 2.42 wh
 
 Total: 5.94wh + 2.42wh = 8.36wh
+
+A lifepo4 battery like [this one](https://www.amazon.com/Rechargeable-Batteries-Flashlight-Doorbells-Headlamps/dp/B0B1H1YY38/ref=asc_df_B0B1H1YY38/?tag=hyprod-20&linkCode=df0&hvadid=598281370702&hvpos=&hvnetw=g&hvrand=11572138756478888654&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013365&hvtargid=pla-1762101332841&psc=1) should be plenty for operating a whole day without sunlight
