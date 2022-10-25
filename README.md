@@ -51,3 +51,11 @@ A lifepo4 battery like [this one](https://www.amazon.com/Rechargeable-Batteries-
 Similar to Brave's chain sync. But, instead of syncing user's history, bookmark, etc. We're storing user task managements. There's also a project called https://syncthing.net/, which stores any files. 
 
 This allows small groups to collaborate with the expense of storing data in the cloud.
+
+## Autofill local DNS cache
+
+In referring other computers, we rarely use their IP addresses, they're painful to remember. DNS was created to solve this exact problem. Unfortunately, DNS is usually used only for public services not for local services. We have MDNS, but this requires admin access to the router. 
+
+Each node in the network can be configured to use a local DNS server, which requires the node to run the DNS server locally and configure the network interface to use localhost as the preferred DNS server. 
+
+To fill the local DNS server cache, we can listen to the network broadcast for DHCP offers which include the client's hostname. We also need to allow manual override. Since DHCP offers don't happen often (during initialization and lease expiration), we should run the node implementing this should be running in a long lived session.
