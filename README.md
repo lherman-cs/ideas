@@ -59,3 +59,10 @@ In referring other computers, we rarely use their IP addresses, they're painful 
 Each node in the network can be configured to use a local DNS server, which requires the node to run the DNS server locally and configure the network interface to use localhost as the preferred DNS server. 
 
 To fill the local DNS server cache, we can listen to the network broadcast for DHCP offers which include the client's hostname. We also need to allow manual override. Since DHCP offers don't happen often (during initialization and lease expiration), we should run the node implementing this should be running in a long lived session.
+
+
+## open source High quality vr desktop exclusive for Linux only
+
+Replace traditional monitors with VRs. Instead of wireless, it's required to use a usb cable. Even with usb 2.0, we have 480Mbps, that's 200x more bandwidth than 1080p videos!! 
+
+The software is going to be open source and exclusive for Linux. It should be created for developers in mind.
