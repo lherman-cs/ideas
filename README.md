@@ -66,3 +66,12 @@ To fill the local DNS server cache, we can listen to the network broadcast for D
 Replace traditional monitors with VRs. Instead of wireless, it's required to use a usb cable. Even with usb 2.0, we have 480Mbps, that's 200x more bandwidth than 1080p videos!! 
 
 The software is going to be open source and exclusive for Linux. It should be created for developers in mind.
+
+## Generic tagging LSP Server
+
+Generic tagging refers to a magic format that can be used for quick lookups. A use case would be for note taking, e.g. I want to quickly lookup a person's name by typing "##user", the LSP server is used to integrate with any IDEs to create a nice autocompletion dropdown on the UI. Under the hood, the LSP server can stay stateless, it can use ripgrep to fulfill the query. Perhaps, after the completion, it transforms "##user" to "##user#<person's name>". This will allow ripgrep to quickly dissect the possible matches by looking at the prefix. Possible taggings:
+1. ##user#<person's name>
+2. ##date#<date in ISO format>
+3. ##due_by#<date in ISO format>: it can be used for creating alarms
+
+
